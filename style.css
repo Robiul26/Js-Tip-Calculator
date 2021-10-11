@@ -1,0 +1,77 @@
+
+
+
+body{
+    background-color: white;
+}
+.card{
+    padding: 1% 7%;
+    max-width: 500px;
+    margin: 20px auto;
+    background-color: rgb(194, 34, 34);
+    border-radius: 10px;
+}
+.card-body{
+    max-width: 400px;
+    margin: 10px auto;
+}
+sub{
+    cursor: pointer;
+    font-size: 12px;
+    color: gray;
+}
+h1{
+    text-align: center;
+}
+h3{
+    text-align: center;
+    margin-bottom: 0;
+}
+hr{
+    width: 100px;
+    margin: 0 auto;
+}
+form{
+    display: grid;
+}
+.form-group{
+display: flex;
+justify-content: space-around;
+align-items: center;
+}
+input{
+    width: 92%;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    border: 1px solid rgb(194,34,34);
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+#inputId{
+    /* max-width: 100%; */
+}
+#tipOutput{
+    background-color: lightcyan;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: bold;
+    width: 50px;
+    height: 28px;
+    line-height: 28px;
+}
+.outputBox{
+    margin: 30px auto;
+    display: none;
+}
+#tipAmount, #totalBill{
+    margin-bottom: 10px;
+    margin-top: 5px;
+    width: 100%;
+    border: none;
+    outline: none;
+}
+.range{
+    cursor: pointer;
+}
